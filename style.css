@@ -329,12 +329,19 @@ input[type="text"] {
 	}
 }
 .img__box {
+	overflow: hidden;
 	width: 30rem;
 	align-self: center;
 }
 .img__box img {
+	height: 100%;
 	width: 100%;
+	border-radius: 7px;
 }
+.recommended__card h4 {
+	margin-top: 10px;
+}
+
 .recommended__card h4 {
 	color: var(--primary-dark);
 	cursor: pointer;
