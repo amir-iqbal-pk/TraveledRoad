@@ -76,6 +76,9 @@ input[type="text"] {
 	padding: 2rem 5rem;
 }
 /* start of navbar */
+.navbar-active {
+	margin-top: 25px;
+}
 .navbar {
 	display: flex;
 	align-items: center;
